@@ -1,4 +1,38 @@
+body {
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0;
+}
+h1{
+	color: #0B9E4C;
+	  margin-top: 0;
+	}
 h2 {
   margin-top: 1rem;
-  font-size: 20px;
+  font-size: 200px;
+  color: #CD2464;
+}
+p {
+	color: #424242;
+}
+.site-intro {
+	height: 100vh;
+	background-color: #202020;
+	position: relative;
+}
+.intro-numbers {
+	float: left;
+	width: 5px;
+}
+.intro-div {
+float: right;
+padding-top: 20vmin;
+padding-right: 10vmin;
+padding-bottom: 20vmin;
+padding-left: 10vmin;
+}
+.site-skills{
+	height: 100vh;
+	background-color: #FFFFFF;
+	position: relative;
 }
