@@ -49,7 +49,7 @@ $(function() {
 																	$(".typed-cursor").fadeOut("fast");
 																	$(".s4").typed({
 																		strings: ["\"Tristan Fitzwater\""],
-																		typeSpeed: speed,
+																		typeSpeed: 20,
 																		cursorChar: "|",
 																		callback: function() {
 																			$(".typed-cursor").fadeOut("fast");
