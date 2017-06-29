@@ -1,5 +1,7 @@
 body {
 	margin: 0;
+	-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
 }
 h1 {
 	color: #0B9E4C;
@@ -56,19 +58,23 @@ span {
 	font-size: 1.5rem;
 	line-height: 20%;
 	font-family: "Courier New", Courier, monospace;
+	white-space: nowrap;
 }
 .intro-numbers {
-	float: left;
-	padding-top: 5vmin;
+position: relative;
+	display: inline-block;
+	padding-top: 2vmin;
 	padding-bottom: 20vmin;
 	padding-left: 10vmin;
 }
 .intro-div {
-	float: left;
-	padding-top: 5vmin;
+position: relative;
+	display: inline-block;
+	padding-top: 2vmin;
 	padding-right: 10vmin;
 	padding-bottom: 20vmin;
 	padding-left: 10vmin;
+	white-space: nowrap;
 }
 .site-skills {
 	height: 100vh;
