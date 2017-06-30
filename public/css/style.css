@@ -470,8 +470,19 @@ br {
 }
 
 .aa5 {
-	color: #ffffff
+	color: #202020;
 }
+
+.anim1 {
+	color: #3066C3;
+}
+.anim2{
+	color: #3066C3;
+}
+.anim3{
+	color: #3066C3;
+}
+
 
 span {
 	color: #0B9E4C;
@@ -517,7 +528,7 @@ position: relative;
 .site-final {
 	position: absolute;
 	height: 100vh;
-	background-color: #ffffff;
+	background-color: #202020;
 	font-size: 1.5rem;
 	line-height: 20%;
 	font-family: "Courier New", Courier, monospace;

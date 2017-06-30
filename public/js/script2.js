@@ -686,12 +686,12 @@ function animationj() {
 																																																																																																																																																												typeSpeed: speed,
 																																																																																																																																																												cursorChar: "|",
 																																																																																																																																																												callback: function() {
-																																																																																																																																																													$(".site-intro").fadeOut(1000);
-																																																																																																																																																													$(".intro-div").fadeOut(1000);
-																																																																																																																																																													$(".intro-numbers").fadeOut(1000);
-																																																																																																																																																													$(".site-final").fadeIn(1000);
-																																																																																																																																																													//$(".ss4").animate({left: '100px'});
-																																																																																																																																																													//$(".anim1").animate({left: '100%'});
+																																																																																																																																																													$(".site-intro").fadeOut(5000);
+																																																																																																																																																													$(".intro-div").fadeOut(5000);
+																																																																																																																																																													$(".intro-numbers").fadeOut(5000);
+																																																																																																																																																													$(".site-final").fadeIn(0);
+																																																																																																																																																													$(".ss4").animate({left: '100px'});
+																																																																																																																																																													$(".anim1").animate({left: '100%'});
 																																																																																																																																																													//$(".anim2").animate({left: '100%'});
 																																																																																																																																																													//$(".anim3").animate({left: '100%'});
 																																																																																																																																																													
