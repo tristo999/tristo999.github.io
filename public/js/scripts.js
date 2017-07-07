@@ -138,7 +138,7 @@ $(function() {
 																																														callback: function() {
 																																															$(".typed-cursor").fadeOut("fast");
 																																															$(".c5").typed({
-																																																strings: ["\"  \""],
+																																																strings: [" \"Aspiring Software Developer with a passion to learn.\""],
 																																																typeSpeed: speed,
 																																																cursorChar: "|",
 																																																callback: function() {
@@ -174,11 +174,16 @@ $(function() {
 																																																										callback: function() {
 																																																											$(".typed-cursor").fadeOut("fast");
 																																																											$(".d5").typed({
-																																																												strings: ["\"  \""],
+																																																												strings: [" \"Currently Persuing a degree in Computer Science and "],
 																																																												typeSpeed: speed,
 																																																												cursorChar: "|",
 																																																												callback: function() {
 																																																													$(".typed-cursor").fadeOut("fast");
+																																																													$(".d7").typed({
+																																																												strings: ["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enginering at The Ohio State University.\""],
+																																																												typeSpeed: speed,
+																																																												cursorChar: "|",
+																																																												callback: function() {
 																																																													$(".d6").typed({
 																																																														strings: [";"],
 																																																														typeSpeed: speed,
@@ -210,11 +215,16 @@ $(function() {
 																																																																						callback: function() {
 																																																																							$(".typed-cursor").fadeOut("fast");
 																																																																							$(".e5").typed({
-																																																																								strings: ["\"  \""],
+																																																																								strings: [" \"I believe that software can not only change someone's "],
 																																																																								typeSpeed: speed,
 																																																																								cursorChar: "|",
 																																																																								callback: function() {
 																																																																									$(".typed-cursor").fadeOut("fast");
+																																																																									$(".e7").typed({
+																																																																								strings: ["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;view of reality, but can change their reality.\""],
+																																																																								typeSpeed: speed,
+																																																																								cursorChar: "|",
+																																																																								callback: function() {
 																																																																									$(".e6").typed({
 																																																																										strings: [";"],
 																																																																										typeSpeed: speed,
@@ -222,7 +232,10 @@ $(function() {
 																																																																										callback: function() {
 																																																																											$(".typed-cursor").fadeOut("fast");
 																																																																											animatef();
-																																																																									
+																																																																						}
+																																																																									})
+																																																																									}
+																																																																									})
 																																																																										}
 																																																																									})
 																																																																								}

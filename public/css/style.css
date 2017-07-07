@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	-webkit-text-size-adjust: 100%;
 -ms-text-size-adjust: 100%;
+overflow: hidden;
 }
 h1 {
 	color: #0B9E4C;
@@ -467,6 +468,7 @@ br {
 
 .ss4{
 	color: #3066C3;
+	font-size: 3rem;
 }
 
 .aa5 {
@@ -475,21 +477,25 @@ br {
 
 .anim1 {
 	color: #3066C3;
+	font-size: 1.5rem;
 }
 .anim2{
 	color: #3066C3;
+	font-size: 1.5rem;
 }
 .anim3{
 	color: #3066C3;
+	font-size: 1.5rem;
 }
 
 
 span {
-	color: #0B9E4C;
+	color: #3066C3;
 	font-family: "Courier New", Courier, monospace;
-	font-size: 1.5em;
-	line-height: 20%;
+	font-size: 1.3em;
+	line-height: 10%;
 	font-weight: bold;
+	padding: 0% 0% 0% 0%;
 }
 .num {
 	color: #505F5E;
@@ -504,8 +510,8 @@ span {
 	height: 100vh;
 	background-color: #202020;
 	position: relative;
-	font-size: 1.5rem;
-	line-height: 20%;
+	font-size: 1.3rem;
+	line-height: 10%;
 	font-family: "Courier New", Courier, monospace;
 	white-space: nowrap;
 }
@@ -515,6 +521,7 @@ position: relative;
 	padding-top: 2vmin;
 	padding-bottom: 20vmin;
 	padding-left: 10vmin;
+	white-space: nowrap;
 }
 .intro-div {
 position: relative;
@@ -529,8 +536,8 @@ position: relative;
 	position: absolute;
 	height: 100vh;
 	background-color: #202020;
-	font-size: 1.5rem;
-	line-height: 20%;
+	font-size: 1.3rem;
+	line-height: 50%;
 	font-family: "Courier New", Courier, monospace;
 	white-space: nowrap;
 	top: 0;
@@ -538,23 +545,25 @@ position: relative;
 	display: none;
 	width: 100vw;
 }
-.intro-spacer {
-position: relative;
-	display: inline-block;
-	padding-top: 2vmin;
-	padding-bottom: 20vmin;
-	padding-left: 10vmin;
-	height: 100vh;
-}
 .intro-final {
 	position: relative;
 	display: inline-block;
-	padding-top: 2vmin;
+	padding-top: 15vmin;
 	padding-right: 10vmin;
 	padding-bottom: 20vmin;
 	padding-left: 10vmin;
 	white-space: nowrap;
 	height: 100vh;
+}
+.scrollRow {
+	width: 100vw;
+	position: absolute;
+	bottom: 3rem;
+	tex-align:center;
+}
+.scrollPrompt{
+	padding: 0;
+	display: block;
 }
 .site-skills {
 	height: 100vh;

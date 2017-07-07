@@ -1,0 +1,10 @@
+#ffffff -white
+#0B9E4C -darkGreen
+#00B453 -lightGreen
+#8FEB5E -methodGreen
+#F17D52 -lightOrange
+#3066CE -darkBlue
+#72ADF5 -lightBlue
+#6098B8 -numberBlue
+#DE2565 -stringRed
+#F7BD49 -arrayYellow
