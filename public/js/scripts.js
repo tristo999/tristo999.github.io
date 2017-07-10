@@ -1,4 +1,16 @@
-var speed = 0;
+$.fn.exBounce = function(){
+    var self = this;
+    (function runEffect(){
+        self.effect("bounce", { times:3 }, 300, runEffect);
+    })();
+   return this;
+};
+
+$(function(){
+    $(".scrollRow").exBounce();
+});
+
+var speed = -1000;
 $(function() {
 	$(".a1").typed({
 		strings: ["private"],

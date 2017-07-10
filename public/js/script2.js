@@ -1,5 +1,5 @@
 function animatef() {
-	var speed = 0;
+	var speed = -1000;
 	$(".f1").typed({
 		strings: ["&nbsp;&nbsp;&nbsp;&nbsp;<i>generateSkillsPage"],
 		typeSpeed: speed,
@@ -212,7 +212,7 @@ function animatef() {
 }
 
 function animationj() {
-	var speed = 0;
+	var speed = -1000;
 	$(".j1").typed({
 		strings: ["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"],
 		typeSpeed: speed,

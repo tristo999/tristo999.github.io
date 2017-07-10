@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	-webkit-text-size-adjust: 100%;
 -ms-text-size-adjust: 100%;
-overflow: hidden;
+overflow-x: hidden;
 }
 h1 {
 	color: #0B9E4C;
@@ -558,12 +558,12 @@ position: relative;
 .scrollRow {
 	width: 100vw;
 	position: absolute;
-	bottom: 3rem;
-	tex-align:center;
-}
+	bottom: 0rem;
+	text-align:center;
+	}
 .scrollPrompt{
-	padding: 0;
-	display: block;
+	max-height:8%;
+	max-width:8%;
 }
 .site-skills {
 	height: 100vh;
@@ -577,6 +577,7 @@ position: relative;
 	animation: blink 0.7s infinite;
 	color: #ffffff;
 }
+
 @keyframes blink {
 	0% {
 		opacity: 1;
