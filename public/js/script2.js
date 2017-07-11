@@ -690,12 +690,10 @@ function animationj() {
 																																																																																																																																																													$(".site-intro").fadeOut(5000);
 																																																																																																																																																													$(".intro-div").fadeOut(5000);
 																																																																																																																																																													$(".intro-numbers").fadeOut(5000);
-																																																																																																																																																													$(".site-final").fadeIn(5000);
-																																																																																																																																																													$(".ss4").animate({width: '0%'});
-																																																																																																																																																													$(".anim1").animate({width: '0%'});
-																																																																																																																																																													$(".anim2").animate({width: '0%'});
-																																																																																																																																																													$(".anim3").animate({width: '0%'});
-																																																																																																																																																													
+																																																																																																																																																													$(".site-final").fadeIn(5000, function() {
+																																																																																																																																																													$(".scrollRow").fadeIn("fast");		
+																																																																																																																																																													});
+																																																																																																																																																																																																																																																																																																																								
 																																																																																																																																																												}
 																																																																																																																																																											})
 																																																																																																																																																										}

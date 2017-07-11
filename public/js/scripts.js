@@ -1,13 +1,7 @@
-$.fn.exBounce = function(){
-    var self = this;
-    (function runEffect(){
-        self.effect("bounce", { times:3 }, 300, runEffect);
-    })();
-   return this;
-};
-
-$(function(){
-    $(".scrollRow").exBounce();
+$(document).ready(function() {
+$(".scrollPrompt").click(function() {
+	$.scrollTo(".site-skills" , {duration: 400});
+});
 });
 
 var speed = -1000;
