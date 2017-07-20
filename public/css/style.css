@@ -3,6 +3,7 @@ body {
 	-webkit-text-size-adjust: 100%;
 -ms-text-size-adjust: 100%;
 overflow-x: hidden;
+font-family: "Courier New", Courier, monospace;
 }
 h1 {
 	color: #0B9E4C;
@@ -579,17 +580,70 @@ position: relative;
 }
 .site-skills {
 	height: 100vh;
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	position: relative;
 }
 .skillsHeader {
-	padding-top: 10vmin;
+	padding-top: 5vmin;
 	padding-left: 10vmin;
 	padding-right: 10vmin;
 	
-	h1 {
-		font-size:10rem;
-	}
+}
+.skillsHead {
+	font-size: 3rem;
+	color: #3066C3;
+	
+}
+.skillsTitle {
+	font-size: 2.5rem;
+	color: #3066C3;
+	
+}
+.skillsFill {
+	font-size: 2rem;
+	color: #3066C3;
+}
+.skillsRow {
+}
+.skill-logo-img {
+	height: 150px;
+}
+.skillResume {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+text-align: center;
+font-size: 4rem;
+color: #3066C3;
+}
+.site-experience {
+	height: 100vh;
+	background-color: #202020;
+	position: relative;
+}
+.Experience1 {
+	position: relative;
+	height: 70vh;
+	background-color: #ffffff;
+	width: 30vw;
+}
+.ExpLogo{
+padding: 3vw;
+	width: 24vw;
+}
+.site-projects {
+	background-color: #ffffff;
+	position: relative;
+}
+.projectDiv {
+background-color: #202020;
+	height: 60vh;
+	width: 40vw;
+}
+.site-about {
+	height:10vh;
+	width:95vw;
 }
 @-moz-keyframes bounce {
   0%       { bottom:5px; }
