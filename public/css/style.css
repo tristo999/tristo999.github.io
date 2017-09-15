@@ -469,7 +469,7 @@ br {
 
 .ss4{
 	color: #3066C3;
-	font-size: 3rem;
+	font-size: 3vw;
 }
 
 .aa5 {
@@ -478,23 +478,23 @@ br {
 
 .anim1 {
 	color: #3066C3;
-	font-size: 1.5rem;
+	font-size: 1vw;
 }
 .anim2{
 	color: #3066C3;
-	font-size: 1.5rem;
+	font-size: 1vw;
 }
 .anim3{
 	color: #3066C3;
-	font-size: 1.5rem;
+	font-size: 1vw;
 }
 
 
 span {
 	color: #3066C3;
 	font-family: "Courier New", Courier, monospace;
-	font-size: 1.3em;
-	line-height: 10%;
+	font-size: 2vw ;
+	line-height: 1vw;
 	font-weight: bold;
 	padding: 0% 0% 0% 0%;
 }
@@ -511,8 +511,8 @@ span {
 	height: 100vh;
 	background-color: #202020;
 	position: relative;
-	font-size: 1.3rem;
-	line-height: 10%;
+	font-size: 1vw;
+	line-height: 1.8vw;
 	font-family: "Courier New", Courier, monospace;
 	white-space: nowrap;
 }
@@ -537,8 +537,8 @@ position: relative;
 	position: absolute;
 	height: 100vh;
 	background-color: #202020;
-	font-size: 1.3rem;
-	line-height: 50%;
+	font-size: 1vw;
+	line-height: 1.8vw;
 	font-family: "Courier New", Courier, monospace;
 	white-space: nowrap;
 	top: 0;
@@ -623,14 +623,21 @@ color: #3066C3;
 	position: relative;
 }
 .Experience1 {
-	position: relative;
-	height: 70vh;
-	background-color: #ffffff;
-	width: 30vw;
+    margin: auto;
+    text-align:left;
+    position: relative;
+    height: 60vh;
+    background-color: #ffffff;
+    width: 80vw;
 }
-.ExpLogo{
-padding: 3vw;
-	width: 24vw;
+.Bullet {
+    margin: 0;
+    font-size: 2vw;
+}
+.ExpLogo {
+    text-align:center;
+    padding: 3vw;
+    width: 24vw;
 }
 .site-projects {
 	background-color: #ffffff;
