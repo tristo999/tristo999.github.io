@@ -1,10 +1,10 @@
 $(document).ready(function() {
 $(".scrollPrompt").click(function() {
-	$.scrollTo(".site-skills" , {duration: 400});
+	$.scrollTo(".site-aboutMe" , {duration: 400});
 });
 });
 
-var speed = -1000;
+var speed = -20000;
 $(function() {
 	$(".a1").typed({
 		strings: ["private"],
