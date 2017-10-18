@@ -629,17 +629,19 @@ position: relative;
 .skill-logo-img {
 	height: 150px;
 }
+.resumeLink {
+    position: relative;
+    background: #3066C3;
+    height: 100px;
+}
 .skillResume {
-position: absolute;
-bottom: 0;
-left: 0;
-right: 0;
-text-align: center;
-font-size: 4rem;
-color: #3066C3;
+    margin: 50px;
+    text-align: center;
+    font-size: 4rem;
+    color: #ffffff;
+    vertical-align: middle;
 }
 .site-experience {
-	height: 100vh;
 	background-color: #202020;
 	position: relative;
 }
@@ -647,8 +649,7 @@ color: #3066C3;
     margin: auto;
     text-align:left;
     position: relative;
-    height: 60vh;
-    background-color: #ffffff;
+    height: 50vh;
     width: 80vw;
 }
 .Bullet {
