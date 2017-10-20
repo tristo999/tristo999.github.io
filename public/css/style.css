@@ -646,15 +646,14 @@ position: relative;
 	position: relative;
 }
 .Experience1 {
-    margin: auto;
+    bottom: 100px;
     text-align:left;
     position: relative;
-    height: 50vh;
-    width: 80vw;
 }
 .Bullet {
     margin: 0;
     font-size: 2vw;
+    color: #ffffff;
 }
 .ExpLogo {
     text-align:center;
