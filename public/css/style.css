@@ -659,8 +659,14 @@ position: relative;
 }
 .ExpLogo {
     text-align:center;
-    padding: 3vw;
+    padding: 1vw;
     width: 24vw;
+}
+.ExpLogo2 {
+    text-align:center;
+    padding-top: 10vw;
+	padding-bottom: 1vw;
+    width: 15vw;
 }
 .site-projects {
 	background-color: #ffffff;
