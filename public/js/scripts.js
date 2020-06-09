@@ -4,7 +4,7 @@ $(".scrollPrompt").click(function() {
 });
 });
 
-var speed = -20000;
+var speed = -999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
 $(function() {
 	$(".a1").typed({
 		strings: ["private"],
@@ -144,7 +144,7 @@ $(function() {
 																																														callback: function() {
 																																															$(".typed-cursor").fadeOut("fast");
 																																															$(".c5").typed({
-																																																strings: [" \"Aspiring Software Developer with a passion to learn.\""],
+																																																strings: [" \"Software Engineer with a passion to learn.\""],
 																																																typeSpeed: speed,
 																																																cursorChar: "|",
 																																																callback: function() {
@@ -180,13 +180,13 @@ $(function() {
 																																																										callback: function() {
 																																																											$(".typed-cursor").fadeOut("fast");
 																																																											$(".d5").typed({
-																																																												strings: [" \"Currently Persuing a degree in Computer Science and "],
+																																																												strings: [" \"Graduated from The Ohio State University with a  "],
 																																																												typeSpeed: speed,
 																																																												cursorChar: "|",
 																																																												callback: function() {
 																																																													$(".typed-cursor").fadeOut("fast");
 																																																													$(".d7").typed({
-																																																												strings: ["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enginering at The Ohio State University.\""],
+																																																												strings: ["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;degree in Computer Science and Enginering.\""],
 																																																												typeSpeed: speed,
 																																																												cursorChar: "|",
 																																																												callback: function() {
